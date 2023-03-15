@@ -19,9 +19,9 @@ Il programma stampa la somma di tutti i numeri inseriti. */
 
 let i = 0;
 
-while (k < 10) {
+while (i < 10) {
   const thisnumeri = numeri[i];
   console.log(thisnumeri);
-  k++;
+  i++;
 }
 console.log("I numeri inseriti sono while :", numeri);
