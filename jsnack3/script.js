@@ -17,6 +17,7 @@ console.log("I numeri inseriti sono:", numeri);
 volte all’utente di inserire un numero.
 Il programma stampa la somma di tutti i numeri inseriti. */
 
+/*ciclo while*/
 let i = 0;
 
 while (i < 10) {
@@ -25,3 +26,13 @@ while (i < 10) {
   i++;
 }
 console.log("I numeri inseriti sono while :", numeri);
+
+/* ciclo do */
+let k = 1;
+
+do {
+  const thisnumeri = numeri[k];
+  console.log(thisnumeri);
+  k++;
+} while (k < 10);
+console.log("I numeri inseriti sono do :", numeri);
